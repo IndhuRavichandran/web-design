@@ -1,0 +1,280 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+img {
+    float: left;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 60%;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 14px;
+    resize: vertical;
+}
+
+label {
+    padding: 5px 5px 5px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 25px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.checked {
+    color: orange;
+}
+.button {
+    background-color: #19A3B8; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid ;
+}
+
+.button1:hover {
+    background-color: grey;
+    color: white;
+}
+
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid black;
+}
+
+.button2:hover {
+    background-color:  grey;
+    color: white;
+}
+
+.button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid black;
+}
+
+.button3:hover {
+    background-color: grey;
+    color: white;
+}
+
+.button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.button4:hover {background-color:  grey;}
+
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.button5:hover {
+    background-color: grey;
+    color: white;
+}
+.button {
+    background-color: #19A3B8
+    color: white;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 25px 15px;
+    cursor: pointer;
+}
+
+input[type=radio] {
+    
+    width: 3%;
+    height: 2%;
+}
+
+</style>
+</head>
+<body style="font-size:150%">
+
+<h1 style="color: #006600;">&nbsp;&nbsp;&nbsp;&nbsp;Sasya Sandol and Yellow Embroidered Kurti
+
+
+<img src="picture4.jpg" alt="Workplace" usemap="#workmap" width="650" height="800">
+
+<map name="workmap">
+  <area shape="rect" coords="211,51,803,449" alt="top" href="web page 5(image map).html">
+  
+  <area shape="rect" coords="93,533,837,1109" alt="bottom" href="web page 6(image map).html">
+
+</map>
+</h1>
+
+
+
+<p>
+<h2  style="color: #006600;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Star Rating
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></h2></p>
+
+<h2  style="color: #006600;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;size</h2>
+&nbsp;&nbsp;&nbsp;&nbsp;<button class="button button1">S</button>
+<button class="button button2">M</button>
+<button class="button button3">L</button>
+<button class="button button4">XL</button>
+<button class="button button5">XXL</button>
+<br>
+<br>
+<br>
+<div style="background-color:LightGray;">
+<table>
+<tr>
+</tr>
+</table>
+</div>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RS.2,000</strong>
+<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(inclusive of all taxes)</p>
+<br>
+<div style="background-color:LightGray;">
+<table>
+<tr>
+</tr>
+</table>
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="button">BUY NOW</button>
+
+<div>
+<table>
+<tr>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For any enquiries:<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;Contact us 0044123123<br><br><br><br><br>
+</tr>
+</table>
+</div>
+<h3>Feedback Form</h3>
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname"><h4>First Name</h4></label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    
+	<div class="row">
+      <div class="col-25">
+        <label for="lname"><h4>Gender</h4></label>
+      </div>
+      <div class="col-75">
+       <form action="/action_page.php">
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other<br><br>
+</form> 
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country"><h4>Country</h4></label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+        <option value="australia">India</option>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+		  <option value="australia">Others</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="feedback"><h4>Feedback</h4></label>
+      </div>
+      <div class="col-75">
+        <textarea id="feedback" name="feedback" placeholder="Write something.." style="height:100px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+
+
+
+
+</body>
+</html>
