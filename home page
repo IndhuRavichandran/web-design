@@ -1,0 +1,308 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="web page 8(search box extrnl style sheet).css">
+<style> 
+ 
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 8px 20px 5px 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:#E7F513;
+    position:absolute; TOP:1050px; LEFT:920px;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 35px 90px;
+    text-decoration: none;
+}
+
+a:link {text-decoration: none;}
+a:visited {color: blue;
+text-decoration: none;}
+
+a:hover {color: green;
+    text-decoration:none;
+}
+a:active {
+    color: MediumSeaGreen;
+    text-decoration: none;
+}
+
+.dropbtn {
+    background-color: #E7F513;
+    color:blue;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #E7F513;
+}
+
+
+</style>
+</head>
+<body>
+
+<div style="background-color:#E7F513">
+<table style="width:50%";>
+<tr>
+<th>
+<h1 style="color: #006600;text-align:center;font-size:250%">Mase<br><sub>make a purchase</sub></h1></th>
+<th>
+<div class="topnav">
+ 
+  <div class="search-container">
+    <form action="file:///C:/Users/Miss/Desktop/web%20assignment/web%20page%201.html">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+</th>
+</tr>
+</table>
+<h3 style="text-align:center;">
+<form action="file:///C:/Users/Miss/Desktop/web%20assignment/web%20page%201.html">
+  <select name="shop by category">
+  <option value="men's fashion">Men's Fashion</option>
+  <option value="Shop by catagory"selected>Shop by category</option>
+ <option value="women fashion">Women Fashion</option></a>
+  <option value="kids fashion">Kids Fashion</option>
+  </select>
+  <input type="submit">
+</form>
+</h3>
+
+<table style="width:100%;font-size:120%">
+<tr>
+<td><a href="https://www.flipkart.com/">Deals of the day</a> </td>
+<td><a href="https://www.flipkart.com/">Track order</a> </td>
+<td><a href="https://www.flipkart.com/">Customer service</a> </td>
+<td><a href="https://www.flipkart.com/">Sell</a> </td>
+<td>
+<div class="dropdown">
+  <button class="dropbtn">Your orders</button>
+  <div class="dropdown-content">
+    <a href="ex web 2.html"> New customer?<br>sign in</a>
+    <a href="#">Your orders</a>
+    <a href="#">Your wish list</a>
+  </div>
+</div></td>
+
+<td><a href="one.html">
+<img src="pic7.png" alt="no picture found" style="width:50;height:50px;">
+</a> </td>
+</tr>
+</table>
+
+<div style="background-color:#19A3B8";>
+<table>
+<tr>
+<th>
+<img src="pic1.png" "width:600px;height:100px" 
+alt="Browser not supported"/></th>
+<th><h1 style="color:white;text-align:centre;font-style:Verdana;">
+Fashion<br>The  best  way  to look your best<br>upto 50% off</th>
+</tr>
+</h1>
+</table>
+
+ 
+<div style="background-color:white">
+<table>
+<tr><br>
+<th colspan="3"><font size="5px">Trendy wear for women<br><br></font></th></tr>
+<tr>
+<th>
+<a href="one.html">
+<img src="pic38.jpg" alt="no picture found" style="width:300px;height:420px;">
+<h3>Women's Kurtas with <br>Palazzos<br> Rs.899</h3></a></th>
+
+<th><a href="one.html">
+<img src="pic40.jpg" alt="no picture found" style="width:320px;height:420px;">
+<h3>Women's Kurtas<br> Rs.499<br> 40% off</h3></a></th>
+
+<th><a href="one.html">
+<img src="pic55.jpg" alt="no picture found" style="width:250px;height:420px;">
+<h3>Party wear sarees<br> Rs.12,690<br>10% off</h3></a>	</th>
+<th>
+<a href="web page 1.html"><font size="5px">see more</font></a>
+</th>
+</tr></table>
+
+<div style="background-color:LightGray;">
+<table>
+<tr>
+</tr>
+</table>
+
+<div style="background-color:white">
+<table>
+<tr><br>
+<th colspan="3"><font size="5px">Discounts For You<br><br></font></th></tr>
+<tr>
+<th><a href="one.html">
+<img src="pic6.webp" alt="no picture found" style="width:270px;height:350px;">
+<h3>Men's casual wear<br> upto <br>50% off</h3></a></th>
+
+<th><a href="one.html">
+<img src="pic23.jpe" alt="no picture found" style="width:270px;height:350px;">
+<h3>Men's t shirts<br> Rs.899<br>20% off</h3></a></th>
+
+
+<th><a href="one.html">
+<img src="pic24.jpe" alt="no picture found" style="width:270px;height:350px;">
+<h3>Formal shirts<br> Rs.713<br>20% off</h3></a></th>
+<th><a href="one.html"><font size="5px">see more</font></a></th>
+</tr></table>
+
+<div style="background-color:LightGray;">
+<table>
+<tr>
+</tr>
+</table>
+
+<div style="background-color:white">
+<table>
+<tr>
+<th><a href="one.html">
+<img src="pic11.jpg" alt="no picture found" style="width:270px;height:350px;">
+<h3>kid's wear<br> Rs.999<br>20% OFF</h3></a></th>
+
+<th><a href="one.html">
+<img src="pic12.jpg" alt="no picture found" style="width:270px;height:350px;">
+<h3>kid's wear<br> Rs.899<br>20% OFF</h3></th>
+
+<th><a href="one.html">
+<img src="pic13.jpg" alt="no picture found" style="width:270px;height:350px;">
+<h3>girls fit<br> Rs.899<br>20% OFF</h3></a></th>
+<th><a href="one.html"><font size="5px">see more</font></a>
+</th>
+</tr></table>
+
+<div style="background-color:LightGray;">
+<table>
+<tr>
+</tr>
+</table>
+
+<div style="background-color:white">
+<table><tr><br>
+<th colspan="3"><font size="5px">Classy wear<br><br></font></th></tr>
+<tr>
+<th><a href="one.html">
+<img src="pic20.jpe" alt="no picture found" style="width:270px;height:300px;">
+<h3>Flat sandals<br>upto 20% OFF</h3></a></th>
+
+<th><a href="one.html">
+<img src="pic21.jpe" alt="no picture found" style="width:270px;height:300px;">
+<h3>Trendy Footwear<br>upto 20% OFF</h3></a></th>
+
+<th><a href="one.html">
+<img src="pic22.jpe" alt="no picture found" style="width:270px;height:300px;">
+<h3>Stylish Footwear for Girls<br>upto 20% OFF</h3></a></th>
+<th><a href="one.html"><font size="5px">see more</font></a></th>
+</tr></table>
+
+<div style="background-color:LightGray;">
+<table>
+<tr>
+</tr>
+</table>
+
+<div style="background-color:white">
+<table>
+<tr>
+<th><a href="one.html">
+<img src="pic14.jpg" alt="no picture found" style="width:270px;height:300px;">
+<h3>shoes for men<br> Rs.1,229<br>20% OFF</h3></a></th>
+
+<th><a href="one.html">
+<img src="pic16.jpg" alt="no picture found" style="width:270px;height:300px;">
+<h3>Sports shoe for men<br> Rs.799<br>20% OFF</h3></a></th>
+
+<th><a href="one.html">
+<img src="pic18.jpeg" alt="no picture found" style="width:270px;height:300px;">
+<h3>Trendy footwear<br>upto <br>50% OFF</h3></a></th>
+<th><a href="one.html"><font size="5px">see more</font></a></th>
+</tr>
+</table>
+<br><br>
+<div style="background-color:#E7F513">
+<table style="width:100%;text-align:left;color:black;font-size:130%;">
+<tr>
+<th>MASE</th>
+<th>Help</th>
+<th> Make Money with Us </th>
+</tr>
+
+<tr>
+<td><a href="#one.html" target="_blank"> Contact us </a> </td>
+<td><a href="#one.html" target="_blank"> Payments </a> </td>
+<td><a href="#one.html" target="_blank"> Sell on Mase </a> </td>
+</tr>
+<tr>
+<td><a href="#two.html" target="_blank"> About us </a> </td>
+<td><a href="#one.html" target="_blank"> Shipping </a> </td>
+<td><a href="#one.html" target="_blank"> Advertise your products </a> </td>
+</tr>
+<tr>
+<td><a href="#two.html" target="_blank"> Careers </a> </td>
+<td><a href="#one.html" target="_blank"> Cancellation & Returns</a> </td>
+<td><a href="#one.html" target="_blank"> Fulfilment by Mase</a> </td>
+</tr>
+<tr>
+<td><a href="#two.html" target="_blank"> Mase stories </a> </td>
+<td><a href="#one.html" target="_blank"> FAQ </a> </td>
+<td><a href="#one.html" target="_blank"> Contact us </a> </td>
+</tr>
+</table>
+
+</body>
+</html>
+
